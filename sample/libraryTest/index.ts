@@ -1,6 +1,4 @@
 //import { trim } from "./node_modules/helloworldnpm/dist/hellolib.js";
-import { trim } from "helloworldnpm";
+import { ElevationLevel } from "helloworldnpm";
 
-console.log(trim(" aaaa  "));
-
-
+console.log(new ElevationLevel({ TP: 1 }).get("TP"));
